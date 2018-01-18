@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techscript</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,600|Roboto:200,300,400,500" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper_head">
+        <div class="head_title">Techscript</div>
+        <div id="articles" class="top_menu_item relative" onclick="showColumn3()">
+            <img src="svg/savedarticles_oval.svg" alt="megaphone" class="icons_top absolute">
+            <div id="savedslide" class="height"></div>
+        </div>
+        <div id="events" class="top_menu_item relative" onclick="showColumn3()">
+            <img src="svg/calendar_oval.svg" alt="megaphone" class="icons_top absolute">
+            <div id="eventslide" class="height selected_top"></div>
+        </div>
+    </div>
+    <div class="wrapper_main">
+        <div class="column1 box">
+            <div id="news" class="menu_item relative">
+                <img src="svg/megaphone_oval.svg" alt="megaphone" class="icons absolute">
+                <div id="newsslide" class="width selected"></div>
+            </div>
+            <div id="interview" class="menu_item relative">
+                <img src="svg/microphone_oval.svg" alt="microphone" class="icons absolute">
+                <div id="intslide" class="width selected"></div>
+            </div>
+            <div id="review" class="menu_item relative">
+                <img src="svg/dice_oval.svg" alt="dice" class="icons absolute">
+                <div id="revslide" class="width selected"></div>
+            </div>
+            <div id="space_item" class="menu_item space_box"></div>
+
+            <div id="mypage" class="menu_item">
+                <img src="svg/mypage_oval.svg" alt="mypage" class="icons absolute">
+                <div id="mypageslide" class="width"></div>
+            </div>
+        </div>
+
+        <div class="column2 box">
+            <div id="article_box">
+                <article class="article_large newsarticle1" data-file="articles/article_mind_news.html" data-target="article">
+
+                    <a href="articles/article_mind_news.html">
+                        <div class="article_photo_large">
+                            <h1 class="title_1">Brain-Machine Interface Isn't Sci-Fi Anymore</h1>
+                            <div class="contain">
+                                <p class="article_description">Elizabeth Stinson<span class="space">&#124;</span> Sep 15, 2017, 08:00am</p>
+
+                                <div class="contain2"><span class="eta time_1"></span><img class="stopwatch_article" src="svg/stopwatch.svg"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <img class="btn1 btn" src="svg/readlist.svg">
+                    <img class="btn1check btn displaynone" src="svg/done_check.svg">
+
+
+                </article>
+
+
+                <article class="article_small intarticle1" data-file="articles/article_Runa_int.html" data-target="article">
+
+                    <a href="articles/article_Runa_int.html">
+                        <div class="article_photo_small_int">
+                            <h1 class="title_2">Runa Sandvik</h1>
+                            <div class="contain_small">
+                                <p class="article_description">Joseph Cox<span class="space">&#124;</span> Mar 27, 2017, 10:22pm</p>
+
+                                <div class="contain2"><span class="eta time_2"></span><img class="stopwatch_article" src="svg/stopwatch.svg"></div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <img class="btn2 btn" src="svg/readlist.svg">
+                    <img class="btn2check btn displaynone" src="svg/done_check.svg">
+
+
+
+
+                </article>
+
+                <article class="article_small revarticle1" data-file="articles/article_iphone_rev.html" data-target="article">
+
+                    <a href="articles/article_iphone_rev.html">
+                        <div class="article_photo_small_rev">
+                            <h1 class="title_3">iPhone X vs. iPhone 8</h1>
+
+                            <div class="contain_small">
+                                <p class="article_description">Chris Welch <span class="space">&#124;</span> Sep 13, 2017, 03:18pm</p>
+
+                                <div class="contain2"><span class="eta time_3"></span><img class="stopwatch_article" src="svg/stopwatch.svg"></div>
+                            </div>
+
+                        </div>
+                    </a>
+                    <img class="btn3 btn" src="svg/readlist.svg">
+                    <img class="btn3check btn displaynone" src="svg/done_check.svg">
+
+
+
+
+
+                </article>
+            </div>
+
+            <div id="mypage_box" class="displaynone">
+                <div class="row">
+                    <div class="left">
+                        <img src="svg/mypage_oval.svg" alt="my profile" class="mypage_img">
+                    </div>
+                    <div class="middle_big">
+                        <h3> Annichen Woll Eide </h3>
+                        <h4> e-post</h4>
+                        <p> annichen@mail.no</p>
+                        <button>Endre</button>
+                        <h4> passord</h4>
+                        <p> ********</p>
+                        <button>Endre</button>
+                        <br>
+                        <br>
+                        <p> Ditt abonnement er MINI til 29,-/mnd.</p>
+                        <button> Endre </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                    </div>
+                    <div class="middle">
+                        <h3>Vil du snakke med oss?</h3>
+                        <p> Du kan nå oss på telefon, epost eller du kan komme innom våre kontorer i Oslo sentrum.</p>
+                        <h4>Telefon</h4>
+                        <p>22 33 44 55</p>
+                        <h4>E-post</h4>
+                        <p>kundesenter@techscript.no</p>
+                        <h4>Adresse</h4>
+                        <p>Prinsens gate 5, Oslo</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                    </div>
+                    <div class="middle">
+                        <h3>Spørsmålsskjema</h3>
+                        <p>Send oss en melding i skjemaet under eller se de andre måtene du kan kontakte oss på.</p>
+                        <form action="/action_page.php" class="contact_form">
+                            Melding
+                            <br>
+                            <br>
+                            <input type="text" name="Melding" value="" class="input_form">
+                            <br><br>
+                            <button class="form_btn"> Send </button>
+                        </form>
+                        <p>Vi svarer deg så raskt vi kan og senest innen 3 arbeidsdager.</p>
+                    </div>
+                    <div class="right">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column3 box">
+            <div class="event_wrapper">
+                <a href="https://www.facebook.com/events/1423662997717636/?acontext=%7B%22ref%22%3A%2225%22%2C%22sid_reminder%22%3A%226465908492179488103%22%2C%22action_history%22%3A%22null%22%7D" target="_blank" class="event">
+                    <div class="date">21<br> Sep</div>
+                    <div class="calender">Earlynerd: Sanda Zahirovic<br>
+                        <span class="place">Rosenkrantz gate 21<br>08.00am - 09.30am</span>
+                    </div>
+
+                </a>
+                <a href="https://www.facebook.com/events/912896855516233/?fref=ts" target="_blank" class="event">
+                    <div class="date">26<br> Sep</div>
+                    <div class="calender">Girl Tech Party 2017<br>
+                        <span class="place">Arne Garborgsplass 4<br>08.00am - 3.00pm</span>
+                    </div>
+
+                </a>
+                <a href="https://www.facebook.com/events/387049711676242/?fref=ts" target="_blank" class="event">
+                    <div class="date">16<br> Oct</div>
+                    <div class="calender">Aftenposten A-Tech<br>
+                        <span class="place">Kirsten Flagstadplass 1<br>09.00am - 16.00pm</span>
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <div class="reading_wrapper displaynone">
+                <div class="reading_flex">
+
+
+                    <div class="reading_time">
+
+                        <ul id="clock"></ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/plugins/readingTime.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>readlist</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D0D0D0" offset="0%"></stop>
+            <stop stop-color="#FEFEFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add_plus">
+            <g id="readlist">
+                <g id="Group-2-Copy-3" fill="url(#linearGradient-1)">
+                    <g id="news-copy">
+                        <circle id="Oval-3-Copy-2" cx="14" cy="14" r="14"></circle>
+                    </g>
+                </g>
+                <path d="M20.8703704,13.4017094 L14.7353989,13.4017094 L14.7353989,7.53347578 C14.7353989,7.23846368 14.4964017,7 14.2019231,7 C13.9074444,7 13.6684473,7.23846368 13.6684473,7.53347578 L13.6684473,13.4017094 L7.53347578,13.4017094 C7.23899715,13.4017094 7,13.6401731 7,13.9351852 C7,14.2301973 7.23899715,14.468661 7.53347578,14.468661 L13.6684473,14.468661 L13.6684473,20.8703704 C13.6684473,21.1653825 13.9074444,21.4038462 14.2019231,21.4038462 C14.4964017,21.4038462 14.7353989,21.1653825 14.7353989,20.8703704 L14.7353989,14.468661 L20.8703704,14.468661 C21.164849,14.468661 21.4038462,14.2301973 21.4038462,13.9351852 C21.4038462,13.6401731 21.164849,13.4017094 20.8703704,13.4017094 Z" id="Shape" stroke="#000000" stroke-width="0.5" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

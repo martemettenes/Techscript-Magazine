@@ -1,0 +1,210 @@
+* 
+    box-sizing: border-box;
+    overflow: hidden;
+
+body
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#29323C, #485563);
+
+/*TOPBAR/MENU*/
+.wrapper_head
+    width: 100vw;
+    height: 7vh;
+    
+.logo
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: white;
+    
+.mypage
+    display: block;
+    height: 64px;
+    width: 64px;
+    
+.bookmark
+    display: block;
+    height: 64px;
+    width: 64px;
+    
+.events
+    display: block;
+    height: 64px;
+    width: 64px;
+    
+
+    
+
+/*WRAPPER FOR PAGE*/
+.wrapper_main
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+.box 
+    min-height: 100px;
+    text-align: left;
+    padding: 40px;
+    display: inline-block;
+    vertical-align: top;
+
+/*DIVIDING THE PAGE INTO COLUMNS*/ 
+.column1 
+    width: 6vw;
+
+.column2 
+    
+    width: 74vw;
+    background-color: white;
+    overflow-y: scroll;
+    padding: 0;
+    
+.column3
+    
+    width: 20vw;
+    background-color: white;
+    padding: 0;
+
+/*ARTICLE LAYOUT*/
+.article_photo_large
+    height: 433px;
+    width: 73vw;
+    background-image: url('img/first.jpeg')
+    background-size: cover;
+    position: relative;
+    
+.article_photo_small
+    height: 433px;
+    background-image: url('img/first.jpeg')
+    background-size: cover;
+    position: relative;
+    
+.article_large
+    background-color: white;
+    width: 73vw;
+    margin-bottom: 8px;
+    display: inline-block;
+    
+.article_small
+    background-color: white;
+    width: 36.4vw;
+    
+    margin-bottom: 8px;
+    display: inline-block;
+
+    
+/*FONT AND COLOR*/
+h1
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    padding-left: 16px;
+    color: white;
+    position: absolute;
+    bottom: 24px;
+    
+h2
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 16px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+
+p
+    font-family: 'Roboto', sans-serif;
+    padding-left: 16px;
+    
+/*READING LIST*/
+.btn 
+    min-height: 2vh;
+    min-width: 2vw;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    
+    
+.article_description
+    font-weight: 300;
+    color: #6d6d6d;
+
+.article_text
+    font-weight: 400;
+    
+/*READINGLIST LAYOUT*/
+.reading_wrapper
+    display: flex;
+    flex-wrap: wrap;
+
+.reading_time 
+    min-width: 2vw;
+    
+.reading_list
+    min-width: 15vw;
+    
+ul
+    padding: 0;
+    
+li
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.2);
+    
+.clock
+    margin-left: 4px;
+    min-height: 10vh;
+    min-width: 4vw;
+    background: linear-gradient(#29323C, #485563);
+    border-radius: 0 20px 0 0;
+    display: inline-block;
+    color: white;
+    padding: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+.list 
+    
+    min-height: 10vh;
+    min-width: 15vw;
+    display: inline-block;
+    padding: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    
+    
+  
+
+/*EVENTS LAYOUT*/
+
+.event
+    height: 80px;
+    width: 315px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 32px;
+    background-color: white;
+    
+.calender
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(#29323C, #485563);
+    border-radius: 0 20px 0 0;
+    display: inline-block;
+    
+.event_text
+    height: 80px;
+    width: 196px;
+    background-color: blue;
+    display: inline-block;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+

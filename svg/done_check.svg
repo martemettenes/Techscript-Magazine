@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>done_check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="done_check">
+            <g id="Group">
+                <circle id="Oval-3-Copy-3" fill="#AEE5CA" cx="14" cy="14" r="14"></circle>
+                <g id="001-success-copy" transform="translate(6.000000, 9.000000)" stroke="#000000" stroke-width="0.700000048" fill="#000000" fill-rule="nonzero">
+                    <path d="M15.0007576,0.185056728 L6.21874756,9.69433099 L0.92805652,5.6205777 C0.682349949,5.4308322 0.32178984,5.46988128 0.125224583,5.70637566 C-0.0719120849,5.94397002 -0.0319133407,6.28991181 0.214364642,6.47965731 L5.92847096,10.8795529 C6.03361051,10.9604009 6.15989226,11 6.2856026,11 C6.44331194,11 6.60044986,10.9373015 6.71301775,10.8152044 L15.8555879,0.91543939 C16.0652956,0.688844769 16.0441534,0.340703033 15.8081608,0.139407811 C15.5715968,-0.062987384 15.2110367,-0.0426378671 15.0007576,0.185056728 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
